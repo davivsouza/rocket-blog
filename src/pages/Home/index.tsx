@@ -101,7 +101,7 @@ export function Home() {
           <PostTemplateContainer>
             <Img src={Post3} width={370} height={"100%"} />
             <DatePost>Janeiro 04, 2022</DatePost>
-            <TitlePost>10 dicas para conseguir a vaga desejada</TitlePost>
+            <TitlePost>Deixe seu código mais semântico com essas dicas</TitlePost>
             <PostDescription>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
               eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
@@ -111,7 +111,7 @@ export function Home() {
           <PostTemplateContainer>
             <Img src={Post4} width={370} height={"100%"} />
             <DatePost>Janeiro 04, 2022</DatePost>
-            <TitlePost>10 dicas para conseguir a vaga desejada</TitlePost>
+            <TitlePost>Use essas dicas nas suas aplicações mobile</TitlePost>
             <PostDescription>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
               eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
