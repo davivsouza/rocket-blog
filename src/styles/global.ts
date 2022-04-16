@@ -7,7 +7,10 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing:border-box; 
   }
   body{
+
+
     background: #290742;
+    -webkit-font-smoothing: antialiased !important;
   }
 
-`
+`;
