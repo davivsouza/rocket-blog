@@ -118,7 +118,8 @@ export const TitlePost = styled.a`
   color: #290742;
 
   transition: filter 200ms ease;
-
+  cursor: pointer;
+  
   :hover{
     filter: brightness(2);
   }
