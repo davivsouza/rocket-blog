@@ -9,10 +9,14 @@
  - Montar a homepage de um blog 
 
 ## 🚀 Techs
- - React.js  <img  alt="Davi-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-  <img  alt="Davi-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
- - TypeScript 
- - Styled-components 
+<div style="display: inline;">
+  <img  alt="Davi-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">- React.js  
+ <img  alt="Davi-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">- TypeScript 
+  - Styled-components 
+</div>
+ 
+  
+
 
 ## Além do objetivo 🕊️
  - Responsividade para Tablet e Smartphones 
