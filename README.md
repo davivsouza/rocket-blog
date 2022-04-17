@@ -8,15 +8,16 @@
 ## Objetivo 🎯
  - Montar a homepage de um blog 
 
-## 🚀 Techs
-<div style="display: flex; align-items: center;">
-  <img  alt="Davi-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">- React.js  
- <img  alt="Davi-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">- TypeScript 
-  - Styled-components 
-</div>
- 
+### 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [React.js](https://pt-br.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Styled-components](https://styled-components.com/)
+
   
 
 
 ## Além do objetivo 🕊️
- - Responsividade para Tablet e Smartphones 
+ - Responsividade para Tablet e Smartphones ✔️
