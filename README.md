@@ -1,11 +1,11 @@
 # Rocket Blog
 
-###
 
-## Sobre
+
+### Sobre
 - Um desafio proposto pela Rocketseat no curso Discover
 
-## Objetivo 🎯
+### Objetivo 🎯
  - Montar a homepage de um blog 
 
 ### 🛠 Tecnologias
