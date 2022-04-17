@@ -14,4 +14,4 @@
  - Styled-components 
 
 ## Além do objetivo 🕊️
- - Responsividade para Tablet e Smartphones ✔
+ - Responsividade para Tablet e Smartphones 
