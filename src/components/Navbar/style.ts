@@ -11,7 +11,6 @@ export const Header = styled.header`
 export const Img = styled.img`
   width: ${(props) => props.width || "auto"};
   height: ${(props) => props.height || "auto"};
-  transition: transform 200ms ease;
 
 `;
 
@@ -19,7 +18,9 @@ export const Nav = styled.nav`
   padding: 0.8rem 1.2rem;
   display: flex;
   align-items: center;
-  gap: 150px;
+  gap: clamp(1.25rem, 5vw, 9.375rem);
+
+ 
 
   ul {
     display: flex;

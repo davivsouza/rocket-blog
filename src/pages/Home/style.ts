@@ -14,20 +14,22 @@ export const Container = styled.main`
 
 export const Slogan = styled.section`
   display: flex;
-  align-items: center;
   gap: 30px;
 
   strong {
     font-family: "Poppins", sans-serif;
-    font-size: clamp(2rem, 2vw, 2.25rem);
+    font-size:clamp(1.5rem, 2vw, 2rem) ;
+
     color: #9e6dc2;
     margin-bottom: 1rem;
     text-align: left;
+
+    
   }
 
   p {
     color: #fbf6ff;
-    font-size: clamp(1rem, 1vw, 1.112rem);
+    font-size: clamp(0.85rem, 1.2vw, 1.112rem);
     font-family: "Poppins", sans-serif;
     margin-bottom: 1.5rem;
   }
@@ -45,6 +47,11 @@ export const Slogan = styled.section`
 
     text-decoration: none;
   }
+
+  .featuredImg{
+    width: clamp(400px, 50%, 570px);
+  }
+
 `;
 
 export const Line = styled.div`

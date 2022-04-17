@@ -1,9 +1,5 @@
 import ArrowRight from "../../assets/arrow-right.svg";
 import FeaturedImage from "../../assets/featured-image.png";
-import Post1 from "../../assets/post-1.png";
-import Post2 from "../../assets/post-2.png";
-import Post3 from "../../assets/post-3.png";
-import Post4 from "../../assets/post-4.png";
 import {
   Container,
   Slogan,
@@ -42,7 +38,7 @@ export function Home() {
               Veja mais <img src={ArrowRight} alt="Veja mais" />
             </a>
           </div>
-          <Img src={FeaturedImage} width={570} height={"100%"} />
+          <Img src={"/assets/featured-image.png"} width={'100%'} height={"100%"} className="featuredImg"/>
         </Slogan>
       </Container>
       <Line />
@@ -50,7 +46,7 @@ export function Home() {
         <Posts>
           <MainPosts>
             <MainPost>
-              <Img src={Post1} alt="Post 1" width={500} />
+              <Img src={"/assets/post-1.png"} alt="Post 1" width={'100%'} />
               <DatePost>Janeiro 04, 2022</DatePost>
               <TitlePost href="#">Começando no ReactJS em 2022</TitlePost>
               <PostDescription>
@@ -89,7 +85,7 @@ export function Home() {
         </Posts>
         <RecomendedPosts>
           <PostTemplateContainer>
-            <Img src={Post2} width={370} height={"100%"} />
+            <Img src={"/assets/post-2.png"} width={'100%'} height={"100%"} />
             <DatePost>Janeiro 04, 2022</DatePost>
             <TitlePost>10 dicas para conseguir a vaga desejada</TitlePost>
             <PostDescription>
@@ -99,7 +95,7 @@ export function Home() {
             </PostDescription>
           </PostTemplateContainer>
           <PostTemplateContainer>
-            <Img src={Post3} width={370} height={"100%"} />
+            <Img src={"/assets/post-3.png"} width={'100%'} height={"100%"} />
             <DatePost>Janeiro 04, 2022</DatePost>
             <TitlePost>Deixe seu código mais semântico com essas dicas</TitlePost>
             <PostDescription>
@@ -109,7 +105,7 @@ export function Home() {
             </PostDescription>
           </PostTemplateContainer>
           <PostTemplateContainer>
-            <Img src={Post4} width={370} height={"100%"} />
+            <Img src={"/assets/post-4.png"} width={'100%'} height={"100%"} />
             <DatePost>Janeiro 04, 2022</DatePost>
             <TitlePost>Use essas dicas nas suas aplicações mobile</TitlePost>
             <PostDescription>
