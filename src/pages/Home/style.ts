@@ -10,19 +10,26 @@ export const Container = styled.main`
 
   gap: 30px;
   padding: 2.5rem 2.8rem;
+
+  @media(max-width:540px){
+    max-width: 100%;
+  }
 `;
 
 export const Slogan = styled.section`
   display: flex;
   gap: 30px;
 
+  @media(max-width:1024px){
+    flex-direction: column-reverse;
+    align-items: center;
+  }
   strong {
     font-family: "Poppins", sans-serif;
-    font-size:clamp(1.5rem, 2vw, 2rem) ;
+    font-size:clamp(1.2rem, 3vw, 2.2rem) ;
 
     color: #9e6dc2;
-    margin-bottom: 1rem;
-    text-align: left;
+    margin-bottom: 5rem;
 
     
   }
@@ -48,9 +55,7 @@ export const Slogan = styled.section`
     text-decoration: none;
   }
 
-  .featuredImg{
-    width: clamp(400px, 50%, 570px);
-  }
+  
 
 `;
 
@@ -70,6 +75,8 @@ export const PostsContainer = styled.section`
   background: #fbf6ff;
 
   padding-top: 2.5rem;
+
+  
 `;
 
 export const Posts = styled.div`
@@ -80,6 +87,11 @@ export const Posts = styled.div`
   align-items: center;
 
   padding-top: 2.5rem;
+
+  @media(max-width:540px){
+    width: 100%;
+    justify-content: center;
+  }
   `;
 
 export const MainPosts = styled.div`
@@ -88,6 +100,10 @@ export const MainPosts = styled.div`
   justify-content: space-between;
 
   gap: 50px;
+
+  @media(max-width:540px){
+    flex-direction: column;
+  }
 `;
 
 export const MainPost = styled.div`
@@ -95,6 +111,11 @@ export const MainPost = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
+
+  @media(max-width:540px){
+    width: 80%;
+    margin: auto;
+  }
 `;
 
 export const LatestPosts = styled.div`
@@ -103,6 +124,11 @@ export const LatestPosts = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 12px;
+
+  @media(max-width:540px){
+    width: 80%;
+    margin: auto;
+  }
 `;
 
 export const PostTemplateContainer = styled(MainPost)`
@@ -145,4 +171,13 @@ export const RecomendedPosts = styled.section`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+
+  @media(max-width:540px){
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+  }
+
 ` 

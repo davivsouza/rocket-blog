@@ -1,5 +1,4 @@
-import ArrowRight from "../../assets/arrow-right.svg";
-import FeaturedImage from "../../assets/featured-image.png";
+import ArrowRight from "/assets/arrow-right.svg";
 import {
   Container,
   Slogan,

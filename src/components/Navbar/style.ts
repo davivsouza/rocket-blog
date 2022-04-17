@@ -11,7 +11,6 @@ export const Header = styled.header`
 export const Img = styled.img`
   width: ${(props) => props.width || "auto"};
   height: ${(props) => props.height || "auto"};
-
 `;
 
 export const Nav = styled.nav`
@@ -19,17 +18,22 @@ export const Nav = styled.nav`
   display: flex;
   align-items: center;
   gap: clamp(1.25rem, 5vw, 9.375rem);
-
- 
-
+  @media (max-width: 540px) {
+    flex-direction: column;
+  }
   ul {
     display: flex;
     align-items: center;
     gap: 20px;
     list-style-type: none;
 
+    @media (max-width: 540px) {
+      gap: 10px;
+    }
+    
     li {
       font-family: "Roboto", sans-serif;
+
       padding-left: 0.2rem;
       :hover {
         border-left: 2px solid #4fff4b;
@@ -37,8 +41,12 @@ export const Nav = styled.nav`
     }
   }
 `;
-
-
+export const Link = styled.a`
+  font-size: clamp(0.85rem, 1rem, 1.112rem);
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+`;
 
 export const SearchContainer = styled.div`
   display: flex;
@@ -83,11 +91,4 @@ export const Input = styled.input`
   ::placeholder {
     color: #fbf6ff;
   }
-`;
-
-export const Link = styled.a`
-  font-size: clamp(1.112rem, 1vw, 1.2rem);
-  font-weight: 600;
-  color: #fff;
-  text-decoration: none;
 `;

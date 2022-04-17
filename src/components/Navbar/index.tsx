@@ -7,15 +7,14 @@ import {
   SearchContainer,
   Link,
 } from "./style";
-import Logo from "../../assets/logo.svg";
-import SearchImg from "../../assets/search.svg";
+
 
 export function Navbar() {
   return (
     <Header>
       <Nav>
         <Link href="/">
-          <Img src={Logo} alt="Logo Rocket Blog" />
+          <Img src={"/assets/logo.svg"} alt="Logo Rocket Blog" />
         </Link>
 
         <ul>
@@ -35,7 +34,7 @@ export function Navbar() {
         <SearchContainer>
           <Input type="text" placeholder="Buscar" name="search" />
           <Search>
-            <Img src={SearchImg} alt="Buscar algo" width={30} />
+            <Img src={"/assets/search.svg"} alt="Buscar algo" width={30} />
           </Search>
         </SearchContainer>
       </Nav>
