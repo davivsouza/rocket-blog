@@ -27,8 +27,8 @@
 
 
 <h3 id="objetivo">Objetivo 🎯</h3>
- Desenvolver a homepage de um blog com foco tecnologia.
 
+Desenvolver a homepage de um blog com foco em tecnologia. <br>
 
 <div align="center">
   <img  width="800px" height="auto" src="./github/rocketblog.gif"/>
