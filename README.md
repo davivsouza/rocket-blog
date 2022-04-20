@@ -9,9 +9,9 @@
 <p align="center">🚀Desafio da Rocketseat do Curso Discover de um blog</p>
 
 <div align="center">
-  <img  src="https://img.shields.io/github/issues/davivsouza/AniManiaBrasil"/>
-  <img  src="https://img.shields.io/github/forks/davivsouza/AniManiaBrasil"/>
-  <img  src="https://img.shields.io/github/stars/davivsouza/AniManiaBrasil"/>
+  <img  src="https://img.shields.io/github/issues/davivsouza/rocket-blog"/>
+  <img  src="https://img.shields.io/github/forks/davivsouza/rocket-blog"/>
+  <img  src="https://img.shields.io/github/stars/davivsouza/rocket-blog"/>
 </div>
 
 <p align="center">
